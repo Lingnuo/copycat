@@ -42,13 +42,14 @@ that use source ports.
 
 
 #安装过程(centos)
-- git clone https://github.com/mami-project/copycat.git
 - 安装依赖环境
   - sudo yum install libgnomeui-devel
   - sudo yum install bison
   - sudo yum install flex
   - wget http://www.tcpdump.org/release/libpcap-1.3.0.tar.gz; tar -zxvf libpcap-1.3.0.tar.gz
   - cd libpcap-1.3.0; ./configure; make && sudo make install
+- 编译安装
+  - git clone https://github.com/mami-project/copycat.git
   - cd ../copycat; aclocal; autoconf; automake --add-missing;
   - ./configure; make && sudo make install
 
