@@ -48,9 +48,9 @@ that use source ports.
   - sudo yum install bison
   - sudo yum install flex
   - wget http://www.tcpdump.org/release/libpcap-1.3.0.tar.gz; tar -zxvf libpcap-1.3.0.tar.gz
-  - cd libpcap-1.3.0; ./configure ;make && sudo make install
-  - cd ../copycat ; aclocal ;autoconf; automake --add-missing;
-  - ./configure ;make && sudo make install
+  - cd libpcap-1.3.0; ./configure; make && sudo make install
+  - cd ../copycat; aclocal; autoconf; automake --add-missing;
+  - ./configure; make && sudo make install
 
 
 
