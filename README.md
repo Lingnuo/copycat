@@ -50,7 +50,10 @@ that use source ports.
   - cd libpcap-1.3.0; ./configure; make && sudo make install
 - 编译安装
   - git clone https://github.com/mami-project/copycat.git
-  - cd ../copycat; aclocal; autoconf; automake --add-missing;
+  - yum install autoconf automake libtool
+  - yum install perl
+  - yum install perl-Thread-Queue
+  - aclocal; autoconf; automake --add-missing;
   - ./configure; make && sudo make install
 
 
